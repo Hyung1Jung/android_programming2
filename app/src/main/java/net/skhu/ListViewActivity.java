@@ -16,7 +16,7 @@ public class ListViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
         arrayList = new ArrayList<String>();
-        arrayList.add("One");
+        arrayList.add("Onee");
         arrayList.add("Two");
         arrayList.add("Three");
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayList);
